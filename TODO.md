@@ -10,6 +10,8 @@ Daily tasks and goals for current build phase:
 - [x] Build folder structure
 - [x] Add index.html, main.jsx, App.jsx
 - [x] Add README and license files
+- [x] Add CHANGELOG updater agent
+- [ ] Test CHANGELOG updater agent by editing TODO.md
 - [ ] Add base agents
 - [ ] Test first agents in StackBlitz
 - [ ] Set up LLM GitHub Action
