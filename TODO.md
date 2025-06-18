@@ -13,6 +13,7 @@ Daily tasks and goals for current build phase:
 - [x] Add CHANGELOG updater agent
 - [ ] Test: This is a test for changelog agent success run
 - [ ] Add base agents
+- [ ] Add legal advisory agent
 - [ ] Test first agents in StackBlitz
 - [ ] Set up LLM GitHub Action
 - [ ] Add reference content to /src/data/
