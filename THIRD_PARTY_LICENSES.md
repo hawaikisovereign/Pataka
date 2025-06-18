@@ -1,6 +1,6 @@
 # THIRD PARTY LICENSES
 
-This document records any third-party code, libraries, or assets used in **Pātaka** — in accordance with copyright law, tikanga Māori, and the kaupapa of the Hawaiki Sovereign Trust.
+This document records any third-party code, libraries, or assets used in **Tatau AI** (Repository: `Pataka`) — in accordance with copyright law, tikanga Māori, and the kaupapa of the Hawaiki Sovereign Trust.
 
 ---
 
@@ -35,5 +35,5 @@ This document records any third-party code, libraries, or assets used in **Pāta
 
 For any questions about licenses:  
 **Charles Werahiko Olsen**  
-Founder & Chair — Hawaiki Sovereign Trust
+Founder & Chair — Hawaiki Sovereign Trust  
 cwtolsen@gmail.com

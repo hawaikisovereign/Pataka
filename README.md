@@ -1,13 +1,15 @@
-# Pātaka
+# Tatau AI
 
-A kaupapa Māori, AI-powered Artist x Client x Business platform.  
-Created by Charles Werahiko Olsen — Hawaiki Sovereign Trust.
+**Kaupapa Māori Artist x Client x Business AI Platform**  
+Repository name: `Pataka`  
+Created by Charles Werahiko Olsen — Hawaiki Sovereign Trust  
+cwtolsen@gmail.com
 
 ---
 
 ## ✨ About
 
-**Pātaka** is the world’s first kaupapa Māori studio assistant — built as a modern digital *pātaka* (storehouse) of tools and agents, designed to empower independent artists (moko, tattoo, piercers, illustrators, painters) to manage their full creative practice:
+**Tatau AI** is the world’s first kaupapa Māori studio assistant — an AI-powered platform to empower independent artists (moko, tattoo, piercers, illustrators, painters) to manage their full creative practice:
 
 ✅ Studio management  
 ✅ Client care  
@@ -16,7 +18,17 @@ Created by Charles Werahiko Olsen — Hawaiki Sovereign Trust.
 ✅ Wellbeing  
 ✅ Legal & compliance
 
-Pātaka helps artists thrive creatively, culturally, and financially — built entirely on tikanga Māori and aligned with Māori Data Sovereignty — with tools available for artists worldwide.
+---
+
+**Why the name “Tatau AI”?**
+
+Metaphorically — “tatau” is the Polynesian word from which the global word “tattoo” is derived.  
+As this platform blends traditional Māori values with global AI technology — “Tatau AI” honours both the depth of our cultural practices and the contemporary creative world we live in.
+
+---
+
+**Repository name: `Pataka`**  
+This is the digital *pātaka* — storehouse of knowledge and tools that power Tatau AI.
 
 ---
 
@@ -26,22 +38,20 @@ Pātaka helps artists thrive creatively, culturally, and financially — built e
 - Working Copy (GitHub management)
 - StackBlitz (frontend preview + testing)
 - GitHub Actions (LLM-powered repo management)
-- OpenAI API (for LLM agents — moving toward local Ollama in future)
-- Agent reference material stored in `/src/data/` (text extracted from PDFs, cultural content)
+- OpenAI API (for LLM agents — moving toward local Ollama)
+- Agent reference material stored in `/src/data/`
 - Public client-facing documents stored in `/public/docs/`
 
 ---
 
 ## 🧠 AI Governance:
 
-- He Whakaputanga o te Rangatiratanga o Nu Tireni 1835
-- Te Tiriti o Waitangi 1840
-- Tikanga Māori
-- Hawaiki Sovereign Trust — Trust Deed
+- Tikanga Māori first
+- Hawaiki Sovereign Trust — Schedule A
 - Māori Data Sovereignty Principles (Dr Karaitiana Taiuru)
 - Electronic Bill of Rights (Rex M. Lee)
-- IAPP Privacy and AI Governance
 - UNDRIP
+- Te Tiriti o Waitangi
 - NZ Trusts Act 2019
 
 ---
@@ -73,7 +83,7 @@ Pātaka helps artists thrive creatively, culturally, and financially — built e
 
 ## ⚖️ License
 
-© 2025 Hawaiki Sovereign Trust  
+© Charles Werahiko Olsen — Hawaiki Sovereign Trust  
 All rights reserved.  
 Private proprietary — not for reuse, copying, or redistribution without written permission.
 
@@ -81,13 +91,16 @@ Private proprietary — not for reuse, copying, or redistribution without writte
 
 ## Developer Notes:
 
-✅ All trusted reference content for agents is stored in `/src/data/`  
-✅ Public PDFs for clients are stored in `/public/docs/`  
-✅ Future support for embeddings and local LLaMA / Ollama models is planned
+- Repository name: `Pataka`  
+- App name: `Tatau AI`  
+- All trusted reference content for agents stored in `/src/data/`  
+- Public PDFs for clients stored in `/public/docs/`  
+- Future support for embeddings and local LLaMA / Ollama planned
 
 ---
 
 # Current lead developer:
 
 **Charles Werahiko Olsen**  
-Founder & Chair — Hawaiki Sovereign Trust
+Founder & Chair — Hawaiki Sovereign Trust  
+cwtolsen@gmail.com

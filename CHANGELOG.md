@@ -1,6 +1,7 @@
-# Pātaka — CHANGELOG
+# Tatau AI — CHANGELOG
 
-This document tracks key changes and updates to the **Pātaka** app.
+This document tracks key changes and updates to the **Tatau AI** app.  
+Repository: `Pataka`
 
 ---
 

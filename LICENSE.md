@@ -1,9 +1,9 @@
 # LICENSE
 
-© 2025 Hawaiki Sovereign Trust
+© Charles Werahiko Olsen  
 All rights reserved.
 
-This project — **Pātaka** — is a proprietary digital work developed by Charles Werahiko Olsen under the governance of the **Hawaiki Sovereign Trust**.
+This project — **Tatau AI** (Repository: `Pataka`) — is a proprietary digital work developed by Charles Werahiko Olsen under the governance of the **Hawaiki Sovereign Trust**.
 
 ---
 
@@ -36,10 +36,10 @@ This project is governed by the principles of:
 
 ## Summary
 
-**Pātaka** is a private, Indigenous-led project designed for the personal and professional use of Charles Werahiko Olsen, and may not be copied or used for commercial gain without consent.
+**Tatau AI** (Repository: `Pataka`) is a private, Indigenous-led project designed for the personal and professional use of Charles Werahiko Olsen, and may not be copied or used for commercial gain without consent.
 
 For permissions or enquiries, contact:
 
 **Charles Werahiko Olsen**  
-Founder & Chair — Hawaiki Sovereign Trust
+Founder & Chair — Hawaiki Sovereign Trust  
 cwtolsen@gmail.com

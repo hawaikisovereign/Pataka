@@ -1,4 +1,4 @@
-# Pātaka — TODO
+# Tatau AI — TODO
 
 Daily tasks and goals for current build phase:
 

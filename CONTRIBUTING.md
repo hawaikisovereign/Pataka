@@ -1,6 +1,11 @@
 # CONTRIBUTING
 
-Kia ora — thank you for your interest in contributing to **Pātaka**!
+Kia ora — thank you for your interest in contributing to **Tatau AI**!  
+Repository: `Pataka`
+
+---
+
+## Our Kaupapa
 
 This is a kaupapa Māori, values-driven project. All contributions must align with:
 
@@ -37,5 +42,5 @@ This is a kaupapa Māori, values-driven project. All contributions must align wi
 
 For invitations to collaborate:  
 **Charles Werahiko Olsen**  
-Founder & Chair — Hawaiki Sovereign Trust
+Founder & Chair — Hawaiki Sovereign Trust  
 cwtolsen@gmail.com

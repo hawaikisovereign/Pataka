@@ -1,6 +1,7 @@
-# Pātaka — ROADMAP
+# Tatau AI — ROADMAP
 
-This is the development roadmap for **Pātaka** — a kaupapa Māori AI-powered Artist x Client x Business platform.
+This is the development roadmap for **Tatau AI** — a kaupapa Māori AI-powered Artist x Client x Business platform.  
+Repository: `Pataka`
 
 ---
 
@@ -65,7 +66,7 @@ This is the development roadmap for **Pātaka** — a kaupapa Māori AI-powered 
 
 ## 💡 Notes & Whakapapa
 
-**Pātaka** is an independent project aligned to the kaupapa of:
+**Tatau AI** (repo: `pataka`) is an independent project aligned to the kaupapa of:
 
 - Hawaiki Sovereign Trust — Schedule A
 - He Whakaputanga 1835

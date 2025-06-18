@@ -2,7 +2,7 @@
 
 ## Our Kaupapa
 
-**Pātaka** is built upon tikanga Māori, mana motuhake, and the guiding principles of the **Hawaiki Sovereign Trust**.
+**Tatau AI** (Repository: `Pataka`) is built upon tikanga Māori, mana motuhake, and the guiding principles of the **Hawaiki Sovereign Trust**.
 
 All participants, contributors, and users are expected to uphold these principles in all interactions with this project.
 
@@ -28,5 +28,5 @@ Any breach of this Code of Conduct will result in removal from the project and p
 
 For any concerns:  
 **Charles Werahiko Olsen**  
-Founder & Chair — Hawaiki Sovereign Trust
+Founder & Chair — Hawaiki Sovereign Trust  
 cwtolsen@gmail.com
