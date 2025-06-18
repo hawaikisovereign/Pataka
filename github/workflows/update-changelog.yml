@@ -8,10 +8,15 @@ jobs:
   update-changelog:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Run LLM to update CHANGELOG.md
-        uses: my-ai-bot/llm-changelog-action@v1
+      - uses: actions/checkout@v4
+      - name: Generate changelog update
+        uses: openai/openai-github-actions@v1
         with:
           openai_api_key: ${{ secrets.OPENAI_API_KEY }}
-          target_file: CHANGELOG.md
-          commit_message: "Update CHANGELOG via AI agent"
+          model: gpt-4o
+          instructions: |
+            You are an expert release note writer for a kaupapa Māori AI project.
+            Read all code changes since last changelog entry.
+            Summarise them into a professional, friendly, respectful changelog update.
+            Keep it short — clear and helpful for Māori and Indigenous developers.
+          file: CHANGELOG.md
