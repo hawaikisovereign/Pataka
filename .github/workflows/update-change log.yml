@@ -2,59 +2,33 @@ name: Update CHANGELOG with LLM Agent
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pull-requests: write
 
 jobs:
   update-changelog:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Get git log diff
-        id: git_diff
+      - name: Generate changelog content
+        id: llm
         run: |
-          echo "## Commit Diff:" > changes.txt
-          git log -1 --pretty=format:"%s%n%n%b" >> changes.txt
-          echo "Generated git diff:"
-          cat changes.txt
+          echo "## Changelog" > new-changelog.md
+          echo "" >> new-changelog.md
+          echo "- Placeholder: AI agent would generate changelog here." >> new-changelog.md
 
-      - name: Generate changelog update
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: |
-          RESPONSE=$(curl https://api.openai.com/v1/chat/completions \
-            -sS \
-            -H "Content-Type: application/json" \
-            -H "Authorization: Bearer $OPENAI_API_KEY" \
-            -d '{
-              "model": "gpt-4o",
-              "messages": [
-                {
-                  "role": "system",
-                  "content": "You are an expert release note writer for a kaupapa Māori AI project. Read the provided commit message and summarize it into a clear, friendly changelog update suitable for Māori and Indigenous developers."
-                },
-                {
-                  "role": "user",
-                  "content": "'"$(cat changes.txt | sed 's/"/\\"/g')"'"
-                }
-              ],
-              "max_tokens": 300,
-              "temperature": 0.7
-            }')
-
-          echo "$RESPONSE" | jq -r '.choices[0].message.content' > changelog_update.txt
-
-          echo "Generated changelog entry:"
-          cat changelog_update.txt
-
-      - name: Update CHANGELOG.md
-        run: |
-          echo "" >> CHANGELOG.md
-          echo "### $(date '+%Y-%m-%d')" >> CHANGELOG.md
-          cat changelog_update.txt >> CHANGELOG.md
-          git config user.name "Tatau AI Agent"
-          git config user.email "cwtolsen@gmail.com"
-          git add CHANGELOG.md
-          git commit -m "chore: update changelog with AI agent"
-          git push
+      - name: Create changelog pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore: update CHANGELOG.md with latest changes"
+          title: "Automated CHANGELOG update"
+          body: "This pull request was created automatically by the LLM Agent workflow."
+          branch: changelog-update
+          delete-branch: true
+          add-paths: |
+            CHANGELOG.md
