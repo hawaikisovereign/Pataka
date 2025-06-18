@@ -1,5 +1,3 @@
-name: Update CHANGELOG with LLM Agent
-
 on:
   push:
     branches: [main]
