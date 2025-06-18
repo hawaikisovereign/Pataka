@@ -1,0 +1,22 @@
+name: Update CHANGELOG with LLM Agent
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  update-changelog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate changelog update
+        uses: openai/openai-github-actions@v1
+        with:
+          openai_api_key: ${{ secrets.OPENAI_API_KEY }}
+          model: gpt-4o
+          instructions: |
+            You are an expert release note writer for a kaupapa Māori AI project.
+            Read all code changes since last changelog entry.
+            Summarize them into a professional, friendly, respectful changelog update.
+            Keep it short — clear and helpful for Māori and Indigenous developers.
+          file: CHANGELOG.md
