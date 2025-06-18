@@ -11,7 +11,7 @@ Daily tasks and goals for current build phase:
 - [x] Add index.html, main.jsx, App.jsx
 - [x] Add README and license files
 - [x] Add CHANGELOG updater agent
-- [ ] Test CHANGELOG updater agent by editing TODO.md
+- [ ] Test that changelog agent runs after push 
 - [ ] Add base agents
 - [ ] Test first agents in StackBlitz
 - [ ] Set up LLM GitHub Action
