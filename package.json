@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Uetonga Master Agent — Tatau AI Pātaka",
   "main": "scripts/run-uetonga.js",
+  "type": "commonjs",
   "scripts": {
     "start": "node scripts/run-uetonga.js"
   },
