@@ -97,6 +97,62 @@ Content, licensing and AI usage are governed by principles laid out in the Trust
 ✅ Mobile-first optimisations for artists  
 ✅ App store release roadmap
 
+## Source Prioritisation — Tā Moko Practice
+
+- **Primary source for tā moko practice content:**
+  - /data/Te-Ahi-tā-moko-v2.pdf
+
+- **Tikanga, kaupapa, cultural context:**
+  - /data/He-tanga-ngutu-he-tuhoetanga.pdf
+  - /docs/data-notes/ta-moko-whariki-map.md
+  - /data/Waitangi-te-raki-tribunal-report.pdf
+  - /data/UNDRIP.pdf
+  - /data/ILO-169.pdf
+
+- **Māori Data Sovereignty & AI Governance:**
+  - /data/Taiuru-maori-data-sovereignty-compilation.pdf
+  - /data/EBOR-2025-FRAMEWORK.pdf
+  - /data/IAPP-AIGP-BoK.pdf
+  - /data/IAPP-CIPM-BoK.pdf
+  - /data/IAPP-CIPP/E-Bok.pdf
+
+- **Hauora & client wellbeing context:**
+  - /data/Te-whare-tapa-wha.pdf
+  - /data/Maramataka-maori.pdf
+
+- **Legal & Business Governance:**
+  - /data/Nz-fair-trading-act-guide.pdf
+  - /data/Nz-copyright-maori-ip.pdf
+  - /data/Nz-consumer-guarantees-act.pdf
+  - /data/Wai-262-maori-ip-report.pdf
+  - /data/Customary-tattooing-guidelines-nz-moh.pdf
+  - /data/Skin-piercing-guidelines-nz-moh.pdf
+  - /data/EBOR-2025-FRAMEWORK.pdf
+  - IRD, MBIE, Companies Office web references
+
+---
+
+## Reference categories:
+
+- **/docs/data-notes/web-references.md**  
+  Records trusted NZ and kaupapa Māori web resources
+
+- **Academic and Educational References**  
+  - These are for learning pathways and community resources only  
+  - NOT used as primary source for moko practice content
+
+---
+
+## Exclusion Rules:
+
+- AI Agents must:
+  - NOT use academic institutional sources for tā moko tikanga or process  
+  - NOT generate moko content from non-Māori or Western tattoo industry sources  
+  - ALWAYS prioritise kaupapa-based, whānau-verified content from the sources listed above
+
+---
+
+_Last updated: June 2025_
 ---
 
 © 2025 Charles Werahiko Olsen  
