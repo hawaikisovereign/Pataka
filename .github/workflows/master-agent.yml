@@ -44,5 +44,7 @@ jobs:
           # Run Uetonga's first operational script:
           node ./scripts/run-uetonga.js
 
-          echo "------------------------------------------------"
+          echo "TODO.md updated."
+          echo "CHANGELOG.md updated."
+          echo "DASHBOARD.md updated."
           echo "Uetonga run complete."
