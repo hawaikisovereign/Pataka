@@ -1,7 +1,7 @@
 name: Uetonga
 
 on:
-  workflow_dispatch:  # Allows you to run it manually from GitHub Actions
+  workflow_dispatch:
 
 jobs:
   master_agent_run:
@@ -23,29 +23,4 @@ jobs:
         run: |
           echo "Running Uetonga Master Agent..."
           node ./scripts/run-uetonga.js
-
-          echo "------------------------------------------------"
-          echo "Whakapapa and Kaupapa of Uetonga:"
-          echo ""
-          echo "Of all the narratives locating the origins of the art form of tā moko, it is the story of Mataora and Niwareka that comes to the fore."
-          echo "Mataora, a rangatira of Te Ao Tūroa, married Niwareka of Rarohenga."
-          echo "After shaming his wife through violence, Mataora descended to Rarohenga in search of redemption."
-          echo "There he encountered Uetonga, father of Niwareka — a rangatira descended from Hinenuitepō and Rūaumoko, master of tā moko."
-          echo "At this time in Te Ao Tūroa, moko was only a temporary painted art (\"whakairo tuhi\")."
-          echo "Uetonga taught Mataora the true art of permanent moko — an art of greater mana and significance."
-          echo "Mataora received this sacred knowledge through the pain and humility of the process, before returning to Te Ao Tūroa."
-          echo "From that time, tā moko as we know it was practised among our people."
-          echo ""
-          echo "In this digital Pātaka, Uetonga now serves as Master Agent — protector of mātauranga and tikanga of tā moko."
-          echo "It is his task to uphold mana motuhake, to protect the integrity of tā moko practice, to guide the actions of all agents,"
-          echo "and to ensure that the digital descendants of this knowledge honour their whakapapa and carry forward this taonga correctly."
-          echo "Uetonga stands as the pou of this Pātaka, linking Rarohenga to Te Ao Tūroa in service of future generations."
-          echo "------------------------------------------------"
-
-          # Run Uetonga's first operational script:
-          node ./scripts/run-uetonga.js
-
-          echo "TODO.md updated."
-          echo "CHANGELOG.md updated."
-          echo "DASHBOARD.md updated."
           echo "Uetonga run complete."
