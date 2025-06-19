@@ -66,6 +66,11 @@ _Last updated by Uetonga: ${now}_
 fs.writeFileSync(path.join(process.cwd(), 'DASHBOARD.md'), dashboardContent);
 console.log('DASHBOARD.md updated.');
 
+// Test entry — proof that Uetonga is running
+const testLine = `\nTest entry by Uetonga at ${now}\n`;
+fs.appendFileSync(path.join(process.cwd(), 'CHANGELOG.md'), testLine);
+console.log('✅ Test entry added to CHANGELOG.md');
+
 console.log(`
 ------------------------------------------------------------
 ✅ Uetonga run complete.
