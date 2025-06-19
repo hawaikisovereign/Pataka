@@ -23,4 +23,3 @@ jobs:
         run: |
           echo "Running Uetonga Master Agent..."
           node ./scripts/run-uetonga.js
-          echo "Uetonga run complete."
