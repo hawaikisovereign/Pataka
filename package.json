@@ -1,18 +1,12 @@
 {
   "name": "tatau-ai",
   "version": "1.0.0",
-  "private": true,
+  "description": "Uetonga Master Agent — Tatau AI Pātaka",
+  "main": "scripts/run-uetonga.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "start": "node scripts/run-uetonga.js"
   },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "vite": "^4.4.0",
-    "@vitejs/plugin-react": "^4.0.0"
-  }
+  "author": "Charles Werahiko Olsen — Hawaiki Sovereign Trust <cwtolsen@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {}
 }
