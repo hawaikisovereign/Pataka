@@ -22,6 +22,7 @@ jobs:
       - name: Run Uetonga Master Agent
         run: |
           echo "Running Uetonga Master Agent..."
+          node ./scripts/run-uetonga.js
 
           echo "------------------------------------------------"
           echo "Whakapapa and Kaupapa of Uetonga:"
