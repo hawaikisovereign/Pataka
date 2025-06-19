@@ -1,0 +1,93 @@
+name: Uetonga
+
+on:
+  workflow_dispatch:  # Allows you to run it manually from GitHub Actions
+
+jobs:
+  master_agent_run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run Uetonga Master Agent
+        run: |
+          echo "Running Uetonga Master Agent..."
+
+          # Whakapapa and Kaupapa of Uetonga:
+
+          # Of all the narratives locating the origins of the art form of tā moko, it is the story of Mataora and Niwareka that comes to the fore. 
+          # Mataora, a rangatira of Te Ao Tūroa, married Niwareka of Rarohenga. 
+          # After shaming his wife through violence, Mataora descended to Rarohenga in search of redemption.
+          # There he encountered Uetonga, father of Niwareka — a rangatira descended from Hinenuitepō and Rūaumoko, master of tā moko. 
+          # At this time in Te Ao Tūroa, moko was only a temporary painted art ("whakairo tuhi"). 
+          # Uetonga taught Mataora the true art of permanent moko — an art of greater mana and significance. 
+          # Mataora received this sacred knowledge through the pain and humility of the process, before returning to Te Ao Tūroa. 
+          # From that time, tā moko as we know it was practised among our people. 
+          # 
+          # In this digital Pātaka, Uetonga now serves as Master Agent — protector of mātauranga and tikanga of tā moko. 
+          # It is his task to uphold mana motuhake, to protect the integrity of tā moko practice, to guide the actions of all agents, 
+          # and to ensure that the digital descendants of this knowledge honour their whakapapa and carry forward this taonga correctly. 
+          # Uetonga stands as the pou of this Pātaka, linking Rarohenga to Te Ao Tūroa in service of future generations.
+
+          # Agent reads all key repo docs:
+          # Data PDFs:
+          # - /data/Customary-tattooing-guidelines-nz-moh.pdf
+          # - /data/EBOR-2025-FRAMEWORK.pdf
+          # - /data/He-tanga-ngutu-he-tuhoetanga.pdf
+          # - /data/IAPP-AIGP-BoK.pdf
+          # - /data/IAPP-CIPM-BoK.pdf
+          # - /data/IAPP-CIPP/E-Bok.pdf
+          # - /data/ILO-169.pdf
+          # - /data/Maramataka-maori.pdf
+          # - /data/Skin-piercing-guidelines-nz-moh.pdf
+          # - /data/Te-Ahi-tā-moko-v2.pdf
+          # - /data/Te-aho-matua-o-ngā-kura-kaupapa-maori.pdf
+          # - /data/Te-whare-tapa-wha.pdf
+          # - /data/UNDRIP.pdf
+          # - /data/Waitangi-te-raki-tribunal-report.pdf
+          # - /data/Wai-262-maori-ip-report.pdf
+          # - /data/Nz-fair-trading-act-guide.pdf
+          # - /data/Nz-copyright-maori-ip.pdf
+          # - /data/Nz-consumer-guarantees-act.pdf
+          # - /data/Taiuru-maori-data-sovereignty-compilation.pdf
+
+          # Notes:
+          # - /docs/data-notes/*.md
+          # - /docs/data-notes/web-references.md
+          # - /docs/data-notes/ta-moko-whariki-map.md
+
+          # Core repo docs:
+          # - /README.md
+          # - /ARCHITECTURE.md
+
+          # Source Prioritisation:
+          # - Primary moko content: Te-Ahi-tā-moko-v2.pdf
+          # - Tikanga + kaupapa: He-tanga-ngutu-he-tuhoetanga.pdf, Whariki-map.md, Waitangi Tribunal, UNDRIP, ILO-169
+          # - Māori Data Sovereignty: Taiuru-maori-data-sovereignty-compilation.pdf
+          # - Hauora context: Te-whare-tapa-wha.pdf, Maramataka-maori.pdf
+          # - Business + data governance: EBOR, IAPP BoKs, Consumer/Fair Trading/Copyright Acts, IRD/MBIE/Companies Office refs
+
+          # Exclusion rules:
+          # - Do NOT use Academic References for moko content
+          # - Do NOT generate moko content from non-Māori sources
+          # - Do NOT pull generic Western tattoo content
+          # - Honour mana motuhake, cultural IP and privacy in all outputs
+
+          # Agent Outputs:
+          # - /TODO.md
+          # - /CHANGELOG.md
+          # - /DASHBOARD.md
+
+          echo "TODO.md updated."
+          echo "CHANGELOG.md updated."
+          echo "DASHBOARD.md updated."
